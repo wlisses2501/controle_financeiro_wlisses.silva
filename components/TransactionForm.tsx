@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TransactionType, IncomeCategory, ExpenseCategory } from '../../types';
+import { TransactionType, IncomeCategory, ExpenseCategory } from '../types';
 import { INCOME_CATEGORIES, EXPENSE_CATEGORIES, RESERVE_CATEGORIES, Icons } from '../constants';
 
 interface TransactionFormProps {

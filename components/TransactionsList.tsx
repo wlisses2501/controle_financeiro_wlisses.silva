@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Transaction, TransactionType } from '../../types';
+import { Transaction, TransactionType } from '../types';
 import { Icons, MONTHS } from '../constants';
 
 interface TransactionsListProps {
