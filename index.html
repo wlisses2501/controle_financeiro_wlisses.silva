@@ -1,37 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Controle Financeiro</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #F2F2F2; color: #121040; }
-        .bg-dark-blue { background-color: #121040; }
-        .bg-navy { background-color: #0C1D40; }
-        .bg-primary-blue { background-color: #052A59; }
-        .bg-accent-orange { background-color: #F28705; }
-        .text-accent-orange { color: #F28705; }
-        .border-accent-orange { border-color: #F28705; }
-    </style>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'dark-blue': '#121040',
-              'navy': '#0C1D40',
-              'primary-blue': '#052A59',
-              'accent-orange': '#F28705',
-              'light-gray': '#F2F2F2'
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle Financeiro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #F2F2F2;
+      color: #121040;
+    }
+
+    .bg-dark-blue {
+      background-color: #121040;
+    }
+
+    .bg-navy {
+      background-color: #0C1D40;
+    }
+
+    .bg-primary-blue {
+      background-color: #052A59;
+    }
+
+    .bg-accent-orange {
+      background-color: #F28705;
+    }
+
+    .text-accent-orange {
+      color: #F28705;
+    }
+
+    .border-accent-orange {
+      border-color: #F28705;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'dark-blue': '#121040',
+            'navy': '#0C1D40',
+            'primary-blue': '#052A59',
+            'accent-orange': '#F28705',
+            'light-gray': '#F2F2F2'
           }
         }
       }
-    </script>
-<script type="importmap">
+    }
+  </script>
+  <script type="importmap">
 {
   "imports": {
     "react/": "https://esm.sh/react@^19.2.3/",
@@ -42,10 +64,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
 </body>
+
 </html>
